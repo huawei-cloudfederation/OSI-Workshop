@@ -55,7 +55,7 @@ kubectl describe pod [podname]
 ```bash
  sudo apt-get install cadvisor
 ```
-#### create the deployment using [autoscaledeployment.yaml](/Kubernetes/yaml/deployment.yaml)
+#### create the deployment using [autoscaledeployment.yaml](/Kubernetes/yaml/autoscaledeployment.yaml)
 ```bash
  kubectl create -f autoscaledeployment.yaml
 ```  

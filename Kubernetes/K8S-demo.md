@@ -51,11 +51,11 @@ kubectl describe pod [podname]
 ```bash 
  kubectl apply -f  https://raw.githubusercontent.com/kubernetes/kops/master/addons/monitoring-standalone/v1.6.0.yaml
 ```
-#### install cadvisor:
+#### Install cadvisor:
 ```bash
  sudo apt-get install cadvisor
 ```
-#### create the deployment using [autoscaledeployment.yaml](/Kubernetes/yaml/autoscaledeployment.yaml)
+#### Create the deployment using [autoscaledeployment.yaml](/Kubernetes/yaml/autoscaledeployment.yaml)
 ```bash
  kubectl create -f autoscaledeployment.yaml
 ```  
